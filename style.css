@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.currency-container {
+    display: flex;
+    position: relative;
+    left: 50%;
+
+    transform: translate(-50%, 150%);
+
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.currency {
+    background-color: #fff;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+    text-align: center;
+    height: 250px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.currency p{
+    font-size: 20px;
+}
+
+.currency .huy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.rubl{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+.data-izmeneniy{
+    padding: 5px;
+    border: 2px solid #999696;
+    border-radius: 4px;
+
+}
+
+.huyy{
+    margin-bottom: 20px;
+}
+
